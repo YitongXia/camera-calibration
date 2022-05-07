@@ -1,0 +1,387 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6,
+						11
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "3rd_party",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5
+					],
+					"jsonFile" : "directory-3rd_party-Debug-80a40daa8768d17e947a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rd_party"
+				},
+				{
+					"build" : "3rd_party/glew",
+					"jsonFile" : "directory-3rd_party.glew-Debug-1b7a5c43072a566a7aca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3rd_party/glew",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3rd_party/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-3rd_party.glfw-Debug-6571526cfd269efcbe4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "3rd_party/glfw"
+				},
+				{
+					"build" : "3rd_party/glfw/src",
+					"jsonFile" : "directory-3rd_party.glfw.src-Debug-ca54e34c423be99cdc85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "3rd_party/glfw/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "3rd_party/glog",
+					"jsonFile" : "directory-3rd_party.glog-Debug-6779a4fe516dfeab4e28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "3rd_party/glog",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "easy3d",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					],
+					"jsonFile" : "directory-easy3d-Debug-a233ae6c277f66756ca1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "easy3d"
+				},
+				{
+					"build" : "easy3d/core",
+					"jsonFile" : "directory-easy3d.core-Debug-d5f9d77a92da044b464f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "easy3d/core",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "easy3d/fileio",
+					"jsonFile" : "directory-easy3d.fileio-Debug-3f9bf2d0c9ebe3cadb34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "easy3d/fileio",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "easy3d/util",
+					"jsonFile" : "directory-easy3d.util-Debug-62bea545a2cefc1bb01c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 6,
+					"source" : "easy3d/util",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "easy3d/viewer",
+					"jsonFile" : "directory-easy3d.viewer-Debug-5eecae829aa226ae8f3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 7,
+					"source" : "easy3d/viewer",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Calibration",
+					"jsonFile" : "directory-Calibration-Debug-347da517496b5cdf6292.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Calibration",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6
+					],
+					"name" : "A1_Calibration_Code"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "3rd_glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "3rd_glog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "easy3d_core",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "easy3d_fileio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "easy3d_util",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "easy3d_viewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "Calibration",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "3rd_glew::@3782b4e7c4f9d2ba2c57",
+					"jsonFile" : "target-3rd_glew-Debug-ad6a0baf20ab0456dd4a.json",
+					"name" : "3rd_glew",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "3rd_glfw::@82eb073f23ca4a565ec2",
+					"jsonFile" : "target-3rd_glfw-Debug-dc4845e7a4ef100701c1.json",
+					"name" : "3rd_glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "3rd_glog::@d3cd30be08f891a1b326",
+					"jsonFile" : "target-3rd_glog-Debug-5668a5c068afb93e9548.json",
+					"name" : "3rd_glog",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Calibration::@e44789d5db144eb0c9e1",
+					"jsonFile" : "target-Calibration-Debug-29cf69ad5797d78d66e3.json",
+					"name" : "Calibration",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "easy3d_core::@cb35a92cddfea1372b37",
+					"jsonFile" : "target-easy3d_core-Debug-b7696c4fe4ffad757af4.json",
+					"name" : "easy3d_core",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "easy3d_fileio::@1ac0250c1f979f6df208",
+					"jsonFile" : "target-easy3d_fileio-Debug-2a924a4b41659b410c14.json",
+					"name" : "easy3d_fileio",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "easy3d_util::@a5cd75459df24341c131",
+					"jsonFile" : "target-easy3d_util-Debug-11ebeec9bef42afe0ba3.json",
+					"name" : "easy3d_util",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "easy3d_viewer::@e94df83b7addc850682d",
+					"jsonFile" : "target-easy3d_viewer-Debug-e09d299df9a5ff082ad2.json",
+					"name" : "easy3d_viewer",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yitongxia/Desktop/A1_Calibration/A1_Calibration_Code/cmake-build-debug",
+		"source" : "/Users/yitongxia/Desktop/A1_Calibration/A1_Calibration_Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
