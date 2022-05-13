@@ -89,12 +89,10 @@ using namespace easy3d;
      A.set_row(1,a2);
      A.set_row(2,a3);
 
-     // 弧度还是角度
+     
      auto cos_theta=-dot(cross(a1,a3), cross(a2,a3));
 
-     auto cos_theta_numerator = dot((cross(a1, a3)), (cross(a2, a3)));
-     auto cos_theta_denominator = norm(cross(a1, a3)) * norm(cross(a2, a3));
-     auto theta = acos(-cos_theta_numerator / cos_theta_denominator);
+     auto theta=acos(cos_theta);
 
      //auto theta=acos(cos_theta);
      auto sin_theta= sin(theta);
@@ -103,8 +101,10 @@ using namespace easy3d;
      auto p=1/ norm(a3);
      cx =p*p* dot(a1,a3);
      cy=p*p* dot(a2,a3);
+  
+  // for simpler intrinsic matrix, fy=beta/sin(theta), so fy=fy=p * p * norm(cross(a2,a3));
      fx=p * p * norm(cross(a1,a3)) * sin_theta;
-     fy=p * p * norm(cross(a2,a3)) * sin_theta;
+     fy=p * p * norm(cross(a2,a3));
 
 
      skew = -fx * cot_theta;
